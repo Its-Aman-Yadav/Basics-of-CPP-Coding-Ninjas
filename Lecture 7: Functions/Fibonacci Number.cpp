@@ -31,7 +31,8 @@ false    */
 #include<iostream>
 using namespace std;
 #include "Solution.h"
-  
+ 
+#Functions
 bool checkMember(int n)
 {
     int a = 0;
@@ -53,6 +54,8 @@ bool checkMember(int n)
     }
 }
 
+
+#Main Code
 int main(){
 
   int n; 
