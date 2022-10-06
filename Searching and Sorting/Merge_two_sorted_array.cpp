@@ -40,6 +40,7 @@ Sample Output 2 :
 7 45 89 90*/
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------void merge(int arr1[], int size1, int arr2[], int size2, int ans[]){
+   void merge(int arr1[], int size1, int arr2[], int size2, int ans[]){
     int i = 0, j = 0, k = 0;
     while(i < size1 && j < size2){ 
         if(arr1[i] < arr2[j]){ 
